@@ -1,6 +1,6 @@
-const Manager = require("./lib/manager");
-const Engineer = require("./lib/engineer");
-const Intern = require("./lib/intern");
+const Manager = require("./lib/Manager");
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
@@ -237,6 +237,7 @@ function appMenu() {
 
   function buildTeam() {
     fs.writeFileSync(outputPath, render(teamMembers), "utf-8");
+
   }
 
   createManager();
@@ -245,3 +246,4 @@ function appMenu() {
 
 
 appMenu();
+
