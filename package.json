@@ -1,0 +1,28 @@
+{
+  "name": "employeeSummary",
+  "version": "1.0.0",
+  "description": "Homework 10",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angied521/employeeSummary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angied521/employeeSummary/issues"
+  },
+  "homepage": "https://github.com/Angied521/employeeSummary#readme",
+  "dependencies": {
+    "inquirer": "^7.0.4",
+    "test": "^0.6.0"
+  }
+}
