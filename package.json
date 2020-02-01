@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose test/*"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/Angied521/employeeSummary#readme",
   "dependencies": {
     "inquirer": "^7.0.4",
+    "jest": "^25.1.0",
     "test": "^0.6.0"
   }
 }
